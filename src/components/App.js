@@ -4,6 +4,8 @@ import Main from './Main';
 import Logo from './Logo';
 import Footer from './Footer';
 
+
+
 const App = () => (
   <div>
   <Logo />

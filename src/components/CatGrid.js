@@ -8,16 +8,12 @@ class CatGrid extends Component {
     super(props);
     this.state = { likes: 0 };
     this.incFav = this.incFav.bind(this);
-    this.decFav = this.decFav.bind(this);
   }
 
   incFav() {
     this.setState(prevState => ({ likes: prevState.likes + 1 }));
   }
 
-  decFav() {
-    this.setState(prevState => ({ likes: prevState.likes - 1 }));
-  }
 
   render() {
     return(

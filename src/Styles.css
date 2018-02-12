@@ -182,13 +182,17 @@ h3 {
 
 /*Responsive*/
 
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 400px) {
     .catLandingContent p {
         font-size:0.8em;
     }
 
     .navbar {
-        display: none;
+    display: none;
+    }
+
+    .menuBar {
+      display: block;
     }
 
     .mobileMenu {
@@ -197,4 +201,48 @@ h3 {
       background-color: #ccc;
       float: right;
     }
+
+    .theMenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    transform: translate3d(-100vw, 0, 0);
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#boxButton {
+  background: none;
+  padding: 6px 6px 4px 6px;
+  float: right;
+  margin-bottom: 3px;
+  margin-top: 40px;
+  /*transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);*/
+}
+
+.boxStyle {
+  background-color: #ccc;
+  margin-bottom: 5px;
+  width: 25px;
+  height: 4px;
+}
+
+#flyoutMenu {
+width: 350px;
+height: 800px;
+left: -30px;
+top: -10px;
+border: 1px #ccc solid;
+  z-index: 1000;
+   position: absolute;
+   background-color:white;
+}
+#flyoutMenu a {
+  font-size: 0.9em;
+  text-align: left;
+
+}
+
+
 }

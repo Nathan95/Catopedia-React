@@ -6,9 +6,6 @@ import {Navbar, Nav, NavItem, MenuItem} from 'react-bootstrap';
 // The Header creates links that can be used to navigate
 // between routes.
 const Header = () => (
-<div>
-
-  <div className="mobileMenu">sadasdsa</div>
 
   <Navbar>
         <Nav>
@@ -19,8 +16,8 @@ const Header = () => (
               <Link to='/'>cat-alogue</Link>
           </NavItem>
         </Nav>
-      </Navbar>
-  </div>
+    </Navbar>
+
 );
 
 export default Header;
