@@ -1,6 +1,9 @@
 ## Details about this app:
 
-The likes counter only works the first image on the cata-logue
+The likes counter only works the first image on the cata-logue.
+
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
